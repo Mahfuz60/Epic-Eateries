@@ -1,0 +1,20 @@
+.footer-area {
+  background-image: linear-gradient(60deg, #0b0d1d, #091118);
+}
+
+.footer-area li {
+  padding-bottom: 10px;
+}
+
+.social-media .icon {
+  height: 40px;
+  width: 40px;
+  color: slategray;
+  border-radius: 50%;
+  border: 1px solid slategray;
+  padding: 10px;
+}
+.social-media .active-icon {
+  background-color: slategray;
+  color: white;
+}
