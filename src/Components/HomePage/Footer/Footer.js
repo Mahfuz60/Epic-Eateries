@@ -40,7 +40,7 @@ const Footer = () => {
                         </ul>
                         <div className="mt-2">
                             <h6 className="text-light">Call now</h6>
-                            <button className="btn btn-secondary">+204565869</button>
+                            <button className="btn btn-danger">+204565869</button>
                         </div>
                     </FooterCol>
                 </div>

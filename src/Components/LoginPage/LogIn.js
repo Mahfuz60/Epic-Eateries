@@ -45,9 +45,15 @@ const LogIn = () => {
     return (
         <div style={{ backgroundColor: '#12161f', height: "1000px" }}>
             <Appbar></Appbar>
-            <div style={{ paddingTop: "300px" }} className="text-center">
-                <h1 className="text-light">Please Click The button To Login ...!!!!</h1>
-                <button onClick={handleGoogleSignIn} className="btn btn-secondary btn-lg mt-1"><FontAwesomeIcon icon={faUserPlus} /> Sign In With Google </button>
+            <div style={{ paddingTop: "100px" }} className="text-center">
+                {/* <h1 className="text-light">Please Click The button To Login ...!!!!</h1> */}
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_AXoQyR.json"
+                    background="transparent"
+                    speed="1"
+                    style={{ height: "600px" }}
+                    loop
+                    autoplay></lottie-player>
+                <button onClick={handleGoogleSignIn} style={{ backgroundColor: "#050c1a" }} className="btn btn-secondary btn-lg mt-1"><FontAwesomeIcon icon={faUserPlus} /> Sign In With Google </button>
             </div>
         </div>
     );

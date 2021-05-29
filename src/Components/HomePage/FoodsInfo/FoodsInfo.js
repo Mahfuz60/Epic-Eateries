@@ -20,9 +20,9 @@ const FoodsInfo = (props) => {
 
             <div className="row ">
 
-                <div class="card focus">
+                <div style={{ backgroundColor: "#050c1a" }} class="card focus text-light">
                     <img style={{ height: "200px" }} class=" img-fluid" src={image} alt="" />
-                    <div class="card-body">
+                    <div class="card-body ">
                         <h5 class="card-title">Food Name : {foodName}</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <h5>Price : {price} $</h5>
@@ -33,7 +33,7 @@ const FoodsInfo = (props) => {
                         title: 'Your Order has been saved',
                         showConfirmButton: false,
                         timer: 1000
-                    }))} className="btn btn-secondary btn-lg m-3"><FontAwesomeIcon icon={faShoppingCart} /> Order Now</button>
+                    }))} className="btn btn-lg m-3 text-light btn-danger fw-bold"><FontAwesomeIcon icon={faShoppingCart} /> Order Now</button>
 
                 </div>
             </div>

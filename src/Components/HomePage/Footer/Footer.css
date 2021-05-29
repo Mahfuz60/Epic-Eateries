@@ -2,6 +2,10 @@
   background-image: linear-gradient(60deg, #0b0d1d, #091118);
 }
 
+.button-bg {
+  background-image: linear-gradient(60deg, s#1f1f26, #0a202c);
+}
+
 .footer-area li {
   padding-bottom: 10px;
 }
@@ -9,12 +13,12 @@
 .social-media .icon {
   height: 40px;
   width: 40px;
-  color: slategray;
+  color: #dc3545;
   border-radius: 50%;
-  border: 1px solid slategray;
+  border: 1px solid #dc3545;
   padding: 10px;
 }
 .social-media .active-icon {
-  background-color: slategray;
+  background-color: #dc3545;
   color: white;
 }
