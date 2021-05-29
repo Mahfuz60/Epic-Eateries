@@ -1,0 +1,120 @@
+[{
+    "id": 1,
+    "foodName": "Hamburger",
+    "image": "https://image.freepik.com/free-photo/beef-cotlet-burger-with-sauce-wooden-board_114579-2600.jpg",
+    "price": 20
+  },
+   
+  {
+    "id": 2,
+    "foodName": "Fried Chicken",
+    "image": "https://image.freepik.com/free-photo/fried-chicken-french-fries-black-cement-floor_1150-28542.jpg",
+    "price": 50
+  }, 
+  {
+    "id": 3,
+    "foodName": "Sandwich",
+    "image": "https://image.freepik.com/free-photo/club-sandwich-with-side-french-fries_140725-1744.jpg",
+    "price": 40
+  }, 
+  {
+    "id": 4,
+    "foodName": "Taco",
+    "image": "https://image.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14149.jpg",
+    "price": 50
+  },
+  {
+    "id": 5,
+    "foodName": "Burrito",
+    "image": "https://image.freepik.com/free-photo/tortilla-with-added-ink-cuttlefish-with-chicken-vegetables_2829-10963.jpg",
+    "price": 60
+  },
+  {
+    "id": 6,
+    "foodName": "Hot Dog",
+    "image": "https://image.freepik.com/free-photo/view-food-frame-with-copy-space_23-2148768170.jpg",
+    "price": 70
+  }, 
+  {
+    "id": 7,
+    "foodName": "Cheeseburger",
+    "image": "https://image.freepik.com/free-photo/big-cheeseburger-french-fries_140725-2256.jpg",
+    "price": 30
+  }, 
+  {
+    "id": 8,
+    "foodName": "Sausage",
+    "image": "https://image.freepik.com/free-photo/grilled-sausages-dark-background-oktoberfest-flat-lay-top-view_2829-6532.jpg",
+    "price": 30
+  }, 
+  {
+    "id": 9,
+    "foodName": "Muffins",
+    "image": "https://image.freepik.com/free-photo/high-view-tasty-cupcake-with-chocolate_23-2148718754.jpg",
+    "price": 20
+  }, 
+  {
+    "id": 10,
+    "foodName": "Cookies",
+    "image": "https://image.freepik.com/free-photo/chocolate-chip-cookie-white-background_1205-528.jpg?1",
+    "price": 90
+  },{
+    "id":11,
+    "foodName": "Baguettes",
+    "image": "https://image.freepik.com/free-photo/top-view-baguette-wooden-background_141793-11553.jpg",
+    "price": 50
+},
+{
+    "id":12,
+    "foodName": "Donuts",
+    "image": "https://image.freepik.com/free-photo/fresh-chocolate-donuts-chopping-board_23-2147909462.jpg",
+    "price": 80
+},
+{
+    "id":13,
+    "foodName": "Pizza",
+    "image": "https://image.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg",
+    "price": 70
+},
+{
+    "id":14,
+    "foodName": "Bacon",
+    "image": "https://image.freepik.com/free-photo/fried-bacon-black-table-top-view_144627-36775.jpg",
+    "price": 100
+},
+{
+    "id":15,
+    "foodName": "Pretzel",
+    "image": "https://image.freepik.com/free-photo/pretzel-bar-counter_1220-1760.jpg",
+    "price": 50
+},
+{
+    "id":16,
+    "foodName": "Pancakes",
+    "image": "https://image.freepik.com/free-photo/front-view-pancakes-with-red-black-currants-strawberries-black-plate-beige-napkin_141793-17749.jpg",
+    "price": 80
+},
+{
+    "id":17,
+    "foodName": "Noodles",
+    "image": "https://image.freepik.com/free-photo/style-still-life-with-noodles-bowl_1150-19766.jpg",
+    "price": 70
+},
+{
+    "id":18,
+    "foodName": "Soft Drink",
+    "image": "https://image.freepik.com/free-photo/soft-drink-glass-soft-drinks-ice-refreshing_51137-1425.jpg",
+    "price": 100
+},
+{
+    "id":19,
+    "foodName": "Chips Fries",
+    "image": "https://image.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg",
+    "price": 70
+},
+{
+    "id":20,
+    "foodName": "Milk Shake",
+    "image": "https://image.freepik.com/free-photo/selection-milkshake-glasses-with-fruits-chocolate_23-2148707758.jpg",
+    "price": 100
+}]

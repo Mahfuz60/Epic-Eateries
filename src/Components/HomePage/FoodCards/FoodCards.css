@@ -1,0 +1,7 @@
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.09);
+}
