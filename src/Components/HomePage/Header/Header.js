@@ -13,7 +13,7 @@ const Header = () => {
                         <h1 style={{ fontSize: "60px" }} >Fast Food Provider <br /> At Your Door</h1>
                         <Row>
                             <span >
-                                <h1 style={{ fontSize: "60px", color: '#f50057' }}>
+                                <h1 style={{ fontSize: "60px" }}>
                                     <Typewriter
                                         options={{
                                             strings: ["Order Your Desire Foods", "From Anywhere", "At Any Time"],

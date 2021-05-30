@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const OrderedFoodsCard = (props) => {
     const { foodName, image, price } = props.food
     return (
-        <div className="card m-1 col-md-3  col-sm-4 ">
+        <div className="card m-1 col-md-3 m-3 col-sm-4 ">
             <div className="row ">
                 <div class="card">
                     <img style={{ height: "200px" }} class=" img-fluid" src={image} alt="" />
