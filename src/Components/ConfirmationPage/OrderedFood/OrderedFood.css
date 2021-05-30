@@ -5,7 +5,7 @@
   align-items: center;
 }
 .booking-form {
-  background-color: #fff;
+  background-color: #050c1a;
   border: 1px solid #ddd;
   padding: 25px;
   border-radius: 5px;
@@ -24,7 +24,7 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #f3f5ff;
+  background: #12161f;
   border-radius: 4px;
   margin: 10px 0;
 }
@@ -37,4 +37,8 @@
 .booking-content {
   color: #fff;
   width: 100%;
+}
+
+.required input:after {
+  content: "*";
 }

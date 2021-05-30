@@ -23,7 +23,7 @@ const About = () => {
                         <div className="card-body mt-5 pt-5">
                             <h4>Expert Chefs</h4>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button className="btn btn-danger btn-lg w-100 "><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
+                            <button type="button" className="btn btn-danger btn-lg w-100 "><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
                         </div>
                     </div>
                     <div style={{ backgroundColor: "#050c1a", border: "1px solid white" }} className="card focus shadow-lg col-md-2 m-3">

@@ -165,14 +165,18 @@ const CheckoutForm = () => {
 
     return paymentMethod ? (
         <div className="Result">
-            <div className="ResultTitle" role="alert">
+            <div>
+                <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_CCLano.json" background="transparent" speed="1" loop autoplay></lottie-player>
+
+            </div>
+            {/* <div className="ResultTitle" role="alert">
                 Payment successful
-            </div>
+            </div> */}
             <div className="ResultMessage">
-                Thanks for trying Stripe Elements. No money was charged, but we
-        generated a PaymentMethod: {paymentMethod.id}
+                Payment successful. You will Get Your Foods In A Short Time.
             </div>
-            <ResetButton onClick={reset} />
+            {/* <ResetButton onClick={reset} /> */}
+
         </div>
     ) : (
         <form className="Form" onSubmit={handleSubmit}>
@@ -181,7 +185,7 @@ const CheckoutForm = () => {
                     label="Name"
                     id="name"
                     type="text"
-                    placeholder="Jane Doe"
+                    placeholder="Write Your Name"
                     required
                     autoComplete="name"
                     value={billingDetails.name}
@@ -193,7 +197,7 @@ const CheckoutForm = () => {
                     label="Email"
                     id="email"
                     type="email"
-                    placeholder="janedoe@gmail.com"
+                    placeholder="Write Your Email Address"
                     required
                     autoComplete="email"
                     value={billingDetails.email}
@@ -205,7 +209,7 @@ const CheckoutForm = () => {
                     label="Phone"
                     id="phone"
                     type="tel"
-                    placeholder="(941) 555-0123"
+                    placeholder="Write Your Phone Number"
                     required
                     autoComplete="tel"
                     value={billingDetails.phone}
@@ -224,7 +228,7 @@ const CheckoutForm = () => {
             </fieldset>
             {error && <ErrorMessage>{error.message}</ErrorMessage>}
             <SubmitButton processing={processing} error={error} disabled={!stripe}>
-                Pay $25
+                Confirm Payment
       </SubmitButton>
         </form>
     );
@@ -244,9 +248,10 @@ const stripePromise = loadStripe("pk_test_6pRNASCoBOKtIshFeQd4XMUh");
 
 const Payment = () => {
     return (
-        <div style={{ marginTop: "100px" }} className="AppWrapper">
+        <div style={{ marginTop: "100px", }} className="AppWrapper">
             <Elements stripe={stripePromise} options={ELEMENTS_OPTIONS}>
                 <CheckoutForm />
+
             </Elements>
         </div>
     );

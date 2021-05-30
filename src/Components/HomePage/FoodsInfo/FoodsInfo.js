@@ -24,7 +24,7 @@ const FoodsInfo = (props) => {
                     <img style={{ height: "200px" }} class=" img-fluid" src={image} alt="" />
                     <div class="card-body ">
                         <h5 class="card-title">Food Name : {foodName}</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Food is maybe the only universal thing that really has the power to bring everyone together.</p>
                         <h5>Price : {price} $</h5>
                     </div>
                     <button onClick={() => dispatch(order(props.food), Swal.fire({

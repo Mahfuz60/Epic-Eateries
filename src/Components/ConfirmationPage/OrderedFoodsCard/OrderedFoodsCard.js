@@ -6,7 +6,7 @@ const OrderedFoodsCard = (props) => {
     return (
         <div className="card m-1 col-md-3 m-3 col-sm-4 ">
             <div className="row ">
-                <div class="card">
+                <div style={{ backgroundColor: "#050c1a" }} class="card focus text-light ">
                     <img style={{ height: "200px" }} class=" img-fluid" src={image} alt="" />
                     <div class="card-body">
                         <h5 class="card-title">{foodName}</h5>
